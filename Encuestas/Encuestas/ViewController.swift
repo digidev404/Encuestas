@@ -15,6 +15,9 @@ class ViewController: UIViewController {
     
     @IBOutlet weak var webview: WKWebView!
     
+    override func preferredStatusBarStyle() -> UIStatusBarStyle {
+        return UIStatusBarStyle.LightContent
+    }
     
     override func viewDidLoad() {
         super.viewDidLoad()
